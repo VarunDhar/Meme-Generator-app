@@ -1,3 +1,9 @@
+# MemeLand
+
+This project can generate memes related to tag that the user inputs or else random memes.
+Set up the API key first, by creating your account, and add the API key as REACT_APP_API_KEY = "whatever your key is" in your .env file.
+Tech stack used - HTML, CSS, Javascript, React.js, Axios, Custom Hooks.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
