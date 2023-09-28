@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.memecard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+input{
+  text-align: center;
+  border:solid #208f40 3px;
+  border-radius:15px;
+  margin: 10px 0 10px 0;
+  width: 60%;
+  height:30px;
+  font-size: 17px;
+}
+.custom-loader {
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:#766DF4;
+  -webkit-mask:
+    repeating-conic-gradient(#0000 0deg,#000 1deg 70deg,#0000 71deg 90deg),
+    radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 calc(100% - 8px));
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect;
+  animation:s5 1s infinite ;
+}
+button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width:600px;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 4px 3px;
+  text-shadow: 1px 1px 10px rgb(214, 191, 14) ;
+}
+img{
+  max-width: 250px;
+  max-height: 250px;
+}
+@keyframes s5 {to{transform: rotate(.5turn)}}
